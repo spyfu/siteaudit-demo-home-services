@@ -1,11 +1,15 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "sampleId": "home-services",
   "sourceFixtureId": "p3-canary-home-services",
   "nestedPath": "/services/roof-repair/",
   "repository": "spyfu/siteaudit-demo-home-services",
-  "cloudflarePagesProject": "siteaudit-demo-home-services",
-  "productionBranch": "demo-01",
-  "publicUrl": "https://siteaudit-demo-home-services.pages.dev/",
-  "editUrl": "https://github.com/spyfu/siteaudit-demo-home-services/edit/demo-01/siteaudit-head.html"
+  "cloudflarePagesProjectBase": "siteaudit-demo-home-services",
+  "productionBranches": [
+    "demo-01",
+    "demo-02",
+    "demo-03",
+    "demo-04",
+    "demo-05"
+  ]
 }
