@@ -1,0 +1,81 @@
+{
+  "id": "p3-canary-home-services",
+  "reviewPacket": "tests/fixtures/owned-canary-fleet.md",
+  "profile": "home-services",
+  "layout": "service",
+  "surfaceModel": "lead-gen local services",
+  "provider": "cloudflare-pages",
+  "status": "public",
+  "owner": "ops",
+  "url": "https://p3-canary-home-services.xlpha.com/",
+  "stack": "marketing-static",
+  "install": "both",
+  "pageCount": 6,
+  "representativePaths": [
+    "/",
+    "/services/roof-repair/",
+    "/locations/seattle/",
+    "/blog/how-to-spot-flashing-failure/"
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "title": "Northshore Roofing Co. | Storm repair and roof replacements",
+      "canonical": "https://p3-canary-home-services.xlpha.com/",
+      "quirks": [
+        "footer-city-loop"
+      ],
+      "eyebrow": "Seattle roofing and storm repair"
+    },
+    {
+      "route": "/services/roof-repair/",
+      "title": "Roof repair for flashing leaks and ridge damage | Northshore Roofing Co.",
+      "canonical": "https://p3-canary-home-services.xlpha.com/services/roof-repair/",
+      "quirks": [
+        "duplicate-description",
+        "query-filter-links"
+      ],
+      "eyebrow": "Roof repair service"
+    },
+    {
+      "route": "/locations/seattle/",
+      "title": "Seattle roof repair crews and same-day leak triage",
+      "canonical": "https://p3-canary-home-services.xlpha.com/locations/",
+      "quirks": [
+        "shared-canonical",
+        "template-copy"
+      ],
+      "eyebrow": "Seattle service area"
+    },
+    {
+      "route": "/blog/how-to-spot-flashing-failure/",
+      "title": "How to spot flashing failure before the next storm | 2024 guide",
+      "canonical": "https://p3-canary-home-services.xlpha.com/blog/how-to-spot-flashing-failure/",
+      "quirks": [
+        "stale-title-suffix",
+        "conversion-heavy-links"
+      ],
+      "eyebrow": "Homeowner guide"
+    },
+    {
+      "route": "/service-area/",
+      "title": "Service area across Seattle, Shoreline, Edmonds, and north-end neighborhoods",
+      "canonical": "https://p3-canary-home-services.xlpha.com/service-area/",
+      "quirks": [
+        "service-area-hub",
+        "intent-split-links"
+      ],
+      "eyebrow": "Service area and scheduling"
+    },
+    {
+      "route": "/financing/",
+      "title": "Roof financing, deductible timing, and scope planning | Northshore Roofing Co.",
+      "canonical": "https://p3-canary-home-services.xlpha.com/financing/",
+      "quirks": [
+        "trust-copy-echo",
+        "conversion-loop"
+      ],
+      "eyebrow": "Financing and insurance planning"
+    }
+  ]
+}
